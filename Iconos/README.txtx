@@ -1,1 +1,36 @@
-Hola mundo
+# Iconos
+
+Esta carpeta contiene los iconos utilizados en los reportes de **Power BI**.
+
+## Uso
+
+Para utilizar un icono en Power BI, abre el archivo **`raw.txt`** de esta carpeta y copia la URL base.
+
+Después, únicamente reemplaza el nombre del archivo por el icono que desees utilizar.
+
+### Ejemplo
+
+Si la URL base es:
+
+```text id="d4y4qj"
+https://raw.githubusercontent.com/ORGANIZACION/PBI_Iconos/main/Iconos/
+```
+
+Y el archivo que deseas utilizar es:
+
+```text id="yvfhzm"
+ok.png
+```
+
+La URL final será:
+
+```text id="8e7w3x"
+https://raw.githubusercontent.com/ORGANIZACION/PBI_Iconos/main/Iconos/ok.png
+```
+
+## Recomendaciones
+
+* Mantener nombres de archivo descriptivos.
+* Evitar espacios y caracteres especiales.
+* Preferir formato **SVG** cuando sea posible; de lo contrario, utilizar **PNG**.
+* Agregar nuevos iconos sin modificar la estructura de carpetas para conservar la compatibilidad con las URL existentes.
