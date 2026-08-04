@@ -1,1 +1,26 @@
-Copia el raw y sustityue
+# Uso del archivo `raw.txt`
+
+El archivo **`raw.txt`** contiene la URL base para acceder a los iconos de esta carpeta.
+
+## Cómo utilizarlo
+
+1. Abre el archivo **`raw.txt`**.
+2. Copia la URL contenida en el archivo.
+3. Al final de la URL, reemplaza o agrega el nombre del icono que deseas utilizar, incluyendo su extensión (`.png` o `.svg`).
+
+### Ejemplo
+
+Si el contenido de `raw.txt` es:
+
+https://raw.githubusercontent.com/ORGANIZACION/PBI_Iconos/main/Iconos/
+
+
+Y el icono que deseas utilizar se llama:
+
+correcto.png
+
+La URL final será:
+
+https://raw.githubusercontent.com/ORGANIZACION/PBI_Iconos/main/Iconos/correcto.png
+
+Esta URL puede utilizarse directamente en Power BI como **Image URL** para mostrar el icono de forma dinámica.
